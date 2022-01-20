@@ -1,0 +1,17 @@
+{
+  "name": "docker-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker:run:hello-world": "docker run hello-world",
+    "docker:run:-it:ubuntu:bash": "docker run -it ubuntu bash",
+    "docker:build:getting-started": "docker build -t getting-started .",
+    "docker:run:getting-started": "docker run getting-started",
+    "docker:jupyter:scipy-notebook": "docker run -p 8888:8888 jupyter/scipy-notebook:33add21fab64",
+    "docker:esridocker:arcgis-api-python-notebook": "docker run -it -p 8888:8888 esridocker/arcgis-api-python-notebook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
